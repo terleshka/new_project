@@ -1,0 +1,7 @@
+[user]
+	name = Viktoriya
+	email = vika-terleckaya@mail.ru
+[core]
+	autocrlf = true
+	safecrlf = false
+	eol = native
