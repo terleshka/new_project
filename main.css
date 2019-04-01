@@ -23,21 +23,31 @@ body {
 
 .header__container {
     position: relative;
-    height: 76px;
+    min-height: 76px;
 }
 
-.logo {
+.logo--header {
 
     display: inline-block;
-    position: absolute;
+    float: left;
     left: 0;
-    top: 10px;
+    margin-top: 10px;
+}
+button{
+    margin-left: 70px;
+    padding: 0;
+    background: none;
+    border: none;
+    right: 0;
+    
 }
 
+
 .contacts {
-    position: absolute;
+    display: inline-block;
+    float: right;
     right: 0;
-    top: 10px;
+    margin-top: 10px;
     text-align: right;
 }
 
@@ -56,6 +66,7 @@ body {
     opacity: 0.8;
     display: block;
     position: relative;
+    text-align: right;
 }
 
 .contacts__work-schedule-block {
@@ -236,11 +247,14 @@ h1 {
 
     font-size: 18px;
     font-weight: 300;
+    margin-left: 40px;
+    
 }
 
 .tariffs__features-item {
     list-style-type: disc;
     text-align: left;
+    
 }
 
 .tariffs__cost {
@@ -254,17 +268,17 @@ h1 {
     border: 2px solid #f9f9fb;
 }
 
-.tariffs__icon-flower {
+.tariffs__icon--flower {
     background: center center no-repeat;
     background-image: url(./images/tariffs-icons/icon-flower.png)
 }
 
-.tariffs__icon-star {
+.tariffs__icon--star {
     background: center center no-repeat;
     background-image: url(./images/tariffs-icons/icon-star.png)
 }
 
-.tariffs__icon-palette {
+.tariffs__icon--palette {
     background: center center no-repeat;
     background-image: url(./images/tariffs-icons/icon-palette.png)
 }
@@ -274,7 +288,7 @@ h1 {
     height: 70px;
     background-color: #4b73b5;
     border-radius: 50%;
-    margin: 0 auto;
+    margin: 30px auto;
 }
 
 .news__item {
@@ -324,23 +338,60 @@ h1 {
 
 .pagination {
     margin-top: 30px;
+    margin-left: 250px;
     display: inline-block;
+    
 }
 
 .pagination__display {
     display: inline-block;
+    margin-right: 10px;
+    font-weight: 300;
+    font-size: 14px;
+    color: #656464;
+
 }
 
 .pagination__controlls {
     display: inline-block;
+    
+    
+}
+.pagination__prev{
+    margin-right: 10px;
+    text-decoration: none;
+    opacity: 0.5;
+    color:#000;
+
 }
 
 .pagination__pages {
     display: inline-block;
+      
+}
+.pagination__next{
+    text-decoration: none;
+    color:#000;
 }
 
 .pagination__pages-item {
     display: inline-block;
+    
+      
+}
+
+.pagination__link{
+    text-decoration: none;
+    font-weight: bold;
+    color:#000;
+    padding: 2px 7px;
+}
+.pagination__link--active{
+    width: 20px;
+    height: 20px;
+    border-radius: 1px;
+    background-color: #4b73b5;
+    color: #fff;
 }
 
 .footer {
@@ -353,12 +404,11 @@ h1 {
 
 .footer__container {
     position: relative;
-    height: 76px;
+    min-height: 76px;
 }
 
-.footer__logo {
-    float: center;
-    display: inline-block;
+.logo--footer {
+    
     position: absolute;
     top: 20px;
     left: 490px;
@@ -369,22 +419,75 @@ h1 {
     left: 0;
     width: 250px;
     font-size: 14px;
+    font-weight: 300;
     line-height: 18px;
     position: absolute;
     top: 12px;
 }
 
+.footer__loftschool{
+    color: #fff;
+}
+
 .socials {
-    display: inline-block;
+    
     right: 0;
     position: absolute;
-    top: 15px;
+    top: 12px;
+    
+}
+.socials__title{
+    margin: 0;
+    font-size: 14px;
+    font-weight: normal;
 }
 .socials__item{
     display: inline-block;
+    
 }
-.socials__icon socials__vk{
-    background: #fff;
-    border-radius: 50%;
+
+.socials__icon--vk{
+    background: center center no-repeat;
     background-image: url(./images/footer-socials/vk.png)
+}
+.socials__icon--fb{
+    background: center center no-repeat;
+    background-image: url(./images/footer-socials/fb.png)
+}
+.socials__icon--google{
+    background: center center no-repeat;
+    background-image: url(./images/footer-socials/google.png)
+}
+.socials__icon--twit{
+    background: center center no-repeat;
+    background-image: url(./images/footer-socials/twitter.png)
+}
+.socials__icon--email{
+    background: center center no-repeat;
+    background-image: url(./images/footer-socials/mail.png)
+}
+.socials__icon{
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-right: 6px;
+    opacity: 0.7;
+
+}
+.socials__icon--vk:hover{
+    opacity: 1;
+}
+.socials__icon--fb:hover{
+    opacity: 1;
+}
+.socials__icon--google:hover{
+    opacity: 1;
+}
+.socials__icon--twit:hover{
+    opacity: 1;
+}
+.socials__icon--email:hover{
+    opacity: 1;
 }
