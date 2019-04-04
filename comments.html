@@ -191,21 +191,24 @@
                 <div class="form__container">
                     <h2 class="title form--title">Оставить отзыв</h2>
                     <form class="form__feedback" action="" method="post" name="form__feedback">   
-                        <label for="user-field">Ваше имя</label>
-                        <input type="text" name="username" id="user-field" placeholder="Андрей">
-                        <label for="link-vk-field">Ссылка на профиль VK</label>
-                        <input type="text" name="link-vk" id="link-vk-field" placeholder="vk.com/example">
+                        <label>Ваше имя
+                            <input class="form__username" type="text" name="username" placeholder="Андрей">
+                        </label>
+                        <label>Ссылка на профиль VK
+                        <input class="form__link-vk" type="text" name="link-vk"  placeholder="vk.com/example">
+                        </label>
                         <br>
-                        <label for="feedback-field">Текст отзыва</label>
-                        <textarea name="feedback" id="feedback-field" cols="30" rows="5" placeholder="Мне понравилось"></textarea>
+                        <label>Текст отзыва
+                        <textarea class="form__feedback-text" name="feedback"  cols="30" rows="5" placeholder="Мне понравилось"></textarea>
+                        </label>
                         <br>
                         <label>Отображать фото в отзыве? 
-                            <input type="radio" name="photo" value="yes" checked>Да 
+                            <input class="form__answer" type="radio" name="photo" value="yes" checked >Да 
                         </label>
                         <label>
-                            <input type="radio" name="photo" value="no">Нет
+                            <input class="form__answer" type="radio" name="photo" value="no" >Нет
                         </label>
-                        <input type="submit" value="Отправить" class="btn">
+                        <input class="form__btn" type="submit" value="Отправить" >
                     </form>
                 </div>
             </section>
