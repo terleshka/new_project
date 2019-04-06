@@ -19,10 +19,12 @@
         </a>
         <div class="contacts">
           <a href="tel:+788000039210" class="contacts__phone">8 (800) 00-392-10</a>
-          <button type="button" class="contacts__work-schedule">График работы</button>
-          <div class="contacts__work-schedule-block">
-            <div class="contacts__week">пн-вс: 09:00-20-00</div>
-            <div class="contacts__lunch">обед: 14:00-14:30</div>
+          <div class="contacts__work-schedule">
+            <button type="button"  class="contacts__btn">График работы</button>
+            <div class="contacts__work-schedule-block">
+              <div class="contacts__week">пн-вс: 09:00-20-00</div>
+              <div class="contacts__lunch">обед: 14:00-14:30</div>
+            </div>
           </div>
 
         </div>
@@ -31,6 +33,7 @@
     <div class="maincontent">
       <div class="container">
         <aside class="sidebar">
+            <nav class="navigation">
           <ul class="nav">
             <li class="nav__item ">
               <a class="nav__link" href="./index.html">
@@ -40,7 +43,7 @@
               </a>
             </li>
             <li class="nav__item">
-              <a class="nav__link" href="./comments.html">
+              <a class="nav__link" href="./feedback.html">
                 <span class="nav__icon nav__icon--feed">
                 </span>
                 <span class="nav__title">Отзывы</span>
@@ -54,6 +57,7 @@
               </a>
             </li>
           </ul>
+          </nav>
         </aside>
         <main class="page-content">
           <div class="breadcrumbs">
@@ -67,12 +71,13 @@
             </ul>
           </div>
           <section class="team">
+            <h1 class="title">Экипаж</h1>
             <ul class="team__list">
               <li class="team__item">
                 <img src="" alt="" class="team__photo team__photo--belov">
                 <div class="team__block">
                   <h3 class="team__name">Белов Алексей Вадимович</h3>
-                  <h4 class="team__posotion">Главный пилот</h4>
+                  <h4 class="team__position">Главный пилот</h4>
                   <p class="team__desk">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto magni sed
                     nam praesentium ratione excepturi perferendis dolor veritatis, adipisci molestias cum qui esse,
                     illum nemo eum eligendi similique alias nisi.</p>
@@ -82,7 +87,7 @@
                 <img src="" alt="" class="team__photo team__photo--belov">
                 <div class="team__block">
                   <h3 class="team__name">Белов Алексей Вадимович</h3>
-                  <h4 class="team__posotion">Главный пилот</h4>
+                  <h4 class="team__position">Главный пилот</h4>
                   <p class="team__desk">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto magni sed
                     nam praesentium ratione excepturi perferendis dolor veritatis, adipisci molestias cum qui esse,
                     illum nemo eum eligendi similique alias nisi.</p>
@@ -92,7 +97,7 @@
                 <img src="" alt="" class="team__photo team__photo--belov">
                 <div class="team__block">
                   <h3 class="team__name">Белов Алексей Вадимович</h3>
-                  <h4 class="team__posotion">Главный пилот</h4>
+                  <h4 class="team__position">Главный пилот</h4>
                   <p class="team__desk">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto magni sed
                     nam praesentium ratione excepturi perferendis dolor veritatis, adipisci molestias cum qui esse,
                     illum nemo eum eligendi similique alias nisi.</p>
@@ -102,7 +107,7 @@
                 <img src="" alt="" class="team__photo team__photo--belov">
                 <div class="team__block">
                   <h3 class="team__name">Белов Алексей Вадимович</h3>
-                  <h4 class="team__posotion">Главный пилот</h4>
+                  <h4 class="team__position">Главный пилот</h4>
                   <p class="team__desk">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto magni sed
                     nam praesentium ratione excepturi perferendis dolor veritatis, adipisci molestias cum qui esse,
                     illum nemo eum eligendi similique alias nisi.</p>
@@ -112,7 +117,7 @@
                 <img src="" alt="" class="team__photo team__photo--belov">
                 <div class="team__block">
                   <h3 class="team__name">Белов Алексей Вадимович</h3>
-                  <h4 class="team__posotion">Главный пилот</h4>
+                  <h4 class="team__position">Главный пилот</h4>
                   <p class="team__desk">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto magni sed
                     nam praesentium ratione excepturi perferendis dolor veritatis, adipisci molestias cum qui esse,
                     illum nemo eum eligendi similique alias nisi.</p>
@@ -122,7 +127,7 @@
                 <img src="" alt="" class="team__photo team__photo--belov">
                 <div class="team__block">
                   <h3 class="team__name">Белов Алексей Вадимович</h3>
-                  <h4 class="team__posotion">Главный пилот</h4>
+                  <h4 class="team__position">Главный пилот</h4>
                   <p class="team__desk">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto magni sed
                     nam praesentium ratione excepturi perferendis dolor veritatis, adipisci molestias cum qui esse,
                     illum nemo eum eligendi similique alias nisi.</p>
@@ -203,10 +208,10 @@
 
     <footer class="footer">
       <div class="container footer__container">
-        <div class="footer__copy">Сделано с любовью и старанием на курсе "HTML + CSS" в
+        <address class="footer__copy">Сделано с любовью и старанием на курсе "HTML + CSS" в
           <a href="https://loftschool.com/" class="footer__loftschool"> <b>LoftSchool</b></a>. Автор работы:
           <b>Терлецкая Виктория</b>.
-        </div>
+        </address>
         <a class="logo logo--footer">
           <img src="./images/logo_header.png" alt="logo" class="logo__img">
         </a>

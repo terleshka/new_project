@@ -1,0 +1,14 @@
+.breadcrumbs__list{
+  margin-top: 42px;
+  display: flex;
+  flex-direction: row;
+}
+.breadcrumbs__item{
+  font-style:italic;
+}
+.breadcrumbs__item:after{
+  content: '/';
+}
+.breadcrumbs__item:last-child:after{
+  display: none;
+}

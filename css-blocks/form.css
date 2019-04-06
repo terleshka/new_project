@@ -1,0 +1,36 @@
+.form{
+
+}
+.form__container{
+  margin-top: 60px;
+  margin-bottom: 50px;
+  width: 700px;
+  min-height: 430px;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+}
+.title--form{
+  margin-left: 70px;
+}
+.form__feedback{
+  margin: 0 70px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+}
+.form__feedback:nth-child(1){
+  order: -10;
+}
+.form__feedback:nth-child(3){
+  order: -5;
+}
+.form__text{
+
+}
+.form__field{
+  
+}

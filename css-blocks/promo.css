@@ -1,0 +1,29 @@
+.promo{
+  background-color: #4bb56b;
+  background-image: url(../images/pattern.png);
+}
+.promo__container{
+ 
+  min-height: 170px;
+  width: 640px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+.promo__description{
+  font-size: 18px;
+  line-height: 30px;
+  text-align: left;
+  color: #fff;
+  font-weight: 300;
+}
+.promo__link, .promo__phone{
+color: #fff;
+text-decoration: none;
+font-weight: bold;
+}
+.promo__link{
+  text-decoration:underline; 
+}
