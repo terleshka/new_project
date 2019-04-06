@@ -14,6 +14,10 @@
 }
 
 .feedback__pic {
+  background-image: url(../images/feedback/image_stub.jpg);
+  
+}
+.feedback__img{
   border-radius: 50%;
 }
 

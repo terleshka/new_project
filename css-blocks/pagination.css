@@ -54,8 +54,7 @@
 }
 
 .pagination__link--active {
-  width: 20px;
-  height: 20px;
+ 
   border-radius: 1px;
   background-color: #4b73b5;
   color: #fff;
