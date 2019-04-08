@@ -111,7 +111,7 @@
               </li>
               <li class="feedback__item">
                 <div class="feedback__pic">
-                  <img  class="feedback__img" >
+                  <img class="feedback__img">
                 </div>
                 <div class="feedback__description">
                   <div class="feedback__date">12.10.2016</div>
@@ -193,28 +193,46 @@
         </div>
       </section>
       <section class="form">
-        <div class="container form__container">
-          <h2 class="title title--form">Оставить отзыв</h2>
-          <form class="form__feedback" action="" method="post" name="form__feedback">
-            <label class="form__text">Ваше имя
-              <input class="form__field" type="text" name="username" placeholder="Андрей">
-            </label>
-            <label class="form__text">Ссылка на профиль VK
-              <input class="form__field" type="text" name="link-vk" placeholder="vk.com/example">
-            </label>
-            <label class="form__text">Текст отзыва
-              <textarea class="form__text-field" name="feedback" cols="30" rows="5"
-                placeholder="Мне понравилось"></textarea>
-            </label>
-            <label class="form__text">Отображать фото в отзыве?
-              <input class="form__answer" type="radio" name="photo" value="yes" checked>Да
-            </label>
-            <label>
-              <input class="form__answer" type="radio" name="photo" value="no">Нет
-            </label>
-            <input class="form__btn" type="submit" value="Отправить">
-          </form>
-        </div>
+        <form class="form__feedback" action="" method="post" name="form__feedback">
+          <div class="container form__container">
+            <h2 class="title title--form">Оставить отзыв</h2>
+            <div class="form__row">
+              <label class="form__text">
+                <div class="form__text-title"> Ваше имя</div>
+                <input class="form__field" type="text" name="username" placeholder="Андрей">
+              </label>
+              <label class="form__text">
+                <div class="form__text-title">Ссылка на профиль VK</div>
+                <input class="form__field" type="text" name="link-vk" placeholder="vk.com/example">
+              </label>
+            </div>
+            <div class="form__row">
+              <label class="form__text">
+                <div class="form__text-title">Текст отзыва</div>
+                <textarea class="form__textarea" name="feedback" cols="30" rows="5"
+                  placeholder="Мне понравилось"></textarea>
+              </label>
+            </div>
+
+            <div class="form__text-title">Отображать фото в отзыве?</div>
+            <div class="form__radio">
+              <label class="form__radio-btn" tabindex="0">
+                <input class="form__answer" type="radio" name="photo" value="yes" checked>
+                <div class="form__radio-custom"></div>
+                <div class="form__radio-text">Да</div>
+              </label>
+              <label class="form__radio-btn" tabindex="0">
+                <input class="form__answer" type="radio" name="photo" value="no" tabindex="0">
+                <div class="form__radio-custom"></div>
+                <div class="form__radio-text">Нет</div>
+              </label>
+              <div class="form__btn">
+                <button class="form__submit" type="submit" value="Отправить">Отправить</button>
+              </div>
+            </div>
+
+          </div>
+        </form>
       </section>
     </div>
 
