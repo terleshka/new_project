@@ -20,24 +20,30 @@
 .partners__logo--bmp:hover{
   filter: none;
   opacity: 1;
+  transition: 0.7s;
 }
 .partners__logo--tetra:hover{
   filter: none;
   opacity: 1;
+  transition: 0.7s;
 }
 .partners__logo--sib-avia:hover{
   filter: none;
   opacity: 1;
+  transition: 0.7s;
 }
 .partners__logo--one-air:hover{
   filter: none;
   opacity: 1;
+  transition: 0.7s;
 }
 .partners__logo--bing-air:hover{
   filter: none;
   opacity: 1;
+  transition: 0.7s;
 }
 .partners__logo--ural:hover{
   filter: none;
   opacity: 1;
+  transition: 0.7s;
 }

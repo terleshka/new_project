@@ -26,6 +26,7 @@
   margin-top: 15px;
   text-align: center;
   padding: 20px 15px;
+  
 
 
 }
@@ -39,6 +40,7 @@
 .contacts__work-schedule:hover .contacts__work-schedule-block {
   display: block;
   position: absolute;
+  transition: 0.7s;
 
 }
 

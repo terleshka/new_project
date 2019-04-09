@@ -24,6 +24,7 @@
   text-decoration: none;
   display: flex;
   justify-content: center;
+  transition: 0.7s;
 }
 
 .nav__item {
@@ -35,6 +36,7 @@
   width: 23px;
   height: 18px;
   background: center center no-repeat;
+  transition: 0.7s;
 }
 
 .nav__icon--main {

@@ -49,20 +49,25 @@
 
 .socials__icon--vk:hover {
   opacity: 1;
+  transition: 0.7s;
 }
 
 .socials__icon--fb:hover {
   opacity: 1;
+  transition:0.7s;
 }
 
 .socials__icon--google:hover {
   opacity: 1;
+  transition: 0.7s;
 }
 
 .socials__icon--twit:hover {
   opacity: 1;
+  transition: 0.7s;
 }
 
 .socials__icon--email:hover {
   opacity: 1;
+  transition: 0.7s;
 }

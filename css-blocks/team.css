@@ -59,10 +59,12 @@
   top: 0;
   right: 0;
   cursor: pointer;
+  transition: 0.7s;
 
 }
 .team__avatar-hover:hover{
   
   opacity: 0;
+  
   }
   
