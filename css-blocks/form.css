@@ -127,6 +127,7 @@
   bottom: 0;
   margin: auto;
   opacity: 0;
+  
 }
 
 .form__answer:checked+.form__radio-custom:after {
@@ -151,7 +152,7 @@
   text-transform: uppercase;
   color: #ffffff;
   letter-spacing: 2.4px;
-  transition: 0.3s;
+  transition: 0.2s;
   cursor: pointer;
   display: flex;
   justify-content: flex-end;

@@ -1,0 +1,39 @@
+.intro__img {
+  background-image: url(../images/intro/intro.jpg);
+  background: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; 
+  position: relative;
+}
+.intro__logo {
+  position: absolute;
+}
+.intro__button{
+  position: absolute;
+  margin-top: 45px;
+  width: 208px;
+  height: 45px;
+  border: 1px solid #4b73b5;
+  color: #4b73b5;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 2.4px;
+  transition: 0.2s;
+  text-transform: uppercase;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  border-radius: 2px;
+  text-decoration: none;
+}
+.intro__button:after{
+  content: '';
+  background-image: url(../images/intro/main_icon.png);
+  background: no-repeat;
+}
+.intro__button:hover{
+
+}
+.intro__link{
+  text-decoration: none;
+}
