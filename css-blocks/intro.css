@@ -1,39 +1,70 @@
+.wrapper--intro {
+  height: 100vh;
+}
+
 .intro__img {
+  height: 100%;
   background-image: url(../images/intro/intro.jpg);
-  background: no-repeat;
+  background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed; 
-  position: relative;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
+
 .intro__logo {
-  position: absolute;
+  margin-bottom: 45px;
+
 }
-.intro__button{
-  position: absolute;
-  margin-top: 45px;
-  width: 208px;
+.intro__animation{
+
+}
+
+.intro__link {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
+.intro__button {
+
+  width: 207px;
   height: 45px;
-  border: 1px solid #4b73b5;
-  color: #4b73b5;
+  border: 1px solid #1c5bc4;
+  color: #1c5bc4;
   font-size: 12px;
   font-weight: bold;
   letter-spacing: 2.4px;
-  transition: 0.2s;
   text-transform: uppercase;
   cursor: pointer;
+  border-radius: 3px;
+  text-decoration: none;
+
   display: flex;
   justify-content: center;
-  border-radius: 2px;
-  text-decoration: none;
+  align-items: center;
 }
-.intro__button:after{
-  content: '';
+
+
+.intro__button:after {
+  content: " ";
+  height: 15px;
+  width: 15px;
+  margin-left: 10px;
   background-image: url(../images/intro/main_icon.png);
-  background: no-repeat;
-}
-.intro__button:hover{
+  background-repeat: no-repeat;
 
 }
-.intro__link{
-  text-decoration: none;
+
+.intro__button:hover {
+  transition: 0.3s;
+  background-color: #1c5bc4;
+  color: #fff;
+}
+
+.intro__button:hover::after {
+  background-image: url(../images/intro/main_icon_hover_white.png);
+  background-repeat: no-repeat;
 }

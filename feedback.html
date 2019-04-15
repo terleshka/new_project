@@ -5,9 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>feedback</title>
+  <title>Отзывы</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,700" rel="stylesheet">
   <link rel="stylesheet" href="main.css">
+  <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico">
 </head>
 
 <body>
@@ -33,34 +34,80 @@
     <div class="maincontent">
       <div class="container">
         <aside class="sidebar">
-          <nav class="navigation">
-            <ul class="nav">
-              <li class="nav__item ">
-                <a class="nav__link" href="./index.html">
-                  <span class="nav__icon nav__icon--main">
-                  </span>
-                  <span class="nav__title">Главная</span>
-                </a>
-              </li>
-              <li class="nav__item nav__item--active">
-                <a class="nav__link">
-                  <span class="nav__icon nav__icon--feed">
-                  </span>
-                  <span class="nav__title">Отзывы</span>
-                </a>
-              </li>
-              <li class="nav__item">
-                <a class="nav__link" href="./team.html">
-                  <span class="nav__icon nav__icon--team">
-                  </span>
-                  <span class="nav__title">Экипаж</span>
-                </a>
-              </li>
-            </ul>
-          </nav>
+            <div class="promo">
+                <div class="promo__container">
+                  <p class="promo__description">
+                    Вопросы по бронированию билетов в нашей авиакомпании принимаются.
+                    Для этого можно оставить
+                    <a class="promo__link" href="#">заявку на сайте</a>
+                    или же позвонить по номеру круглосуточной поддержки
+                    <a href="tel:+788000039210" class="promo__phone">8(800) 00-392-10.</a>
+                  </p>
+                </div>
+              </div>
+              <div class="socials">
+                  <h3 class="socials__title">Наши социальные сети</h3>
+                  <ul class="socials__list">
+                    <li class="socials__item">
+                      <a href="" class="socials__link">
+                        <span class="socials__icon socials__icon--vk">
+                        </span>
+                      </a>
+                    </li>
+                    <li class="socials__item">
+                      <a href="" class="socials__link">
+                        <span class="socials__icon socials__icon--fb">
+                        </span>
+                      </a>
+                    </li>
+                    <li class="socials__item">
+                      <a href="" class="socials__link">
+                        <span class="socials__icon socials__icon--google">
+                        </span>
+                      </a>
+                    </li>
+                    <li class="socials__item">
+                      <a href="" class="socials__link">
+                        <span class="socials__icon socials__icon--twit">
+                        </span>
+                      </a>
+                    </li>
+                    <li class="socials__item">
+                      <a href="" class="socials__link">
+                        <span class="socials__icon socials__icon--email">
+                        </span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
         </aside>
         <main class="page-content">
-          <div class="breadcrumbs">
+            <nav class="navigation">
+                <ul class="nav">
+                  <li class="nav__item ">
+                    <a class="nav__link" href="./main.html">
+                      <span class="nav__icon nav__icon--main">
+                      </span>
+                      <span class="nav__title">Главная</span>
+                    </a>
+                  </li>
+                  <li class="nav__item nav__item--active">
+                    <a class="nav__link">
+                      <span class="nav__icon nav__icon--feed">
+                      </span>
+                      <span class="nav__title">Отзывы</span>
+                    </a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link" href="./team.html">
+                      <span class="nav__icon nav__icon--team">
+                      </span>
+                      <span class="nav__title">Экипаж</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+          <!-- <div class="breadcrumbs">
             <ul class="breadcrumbs__list">
               <li class="breadcrumbs__item">
                 <a href="/index.html" class="breadcrambs__link">Главная</a>
@@ -69,7 +116,7 @@
                 <a class="breadcrambs__link">Отзывы</a>
               </li>
             </ul>
-          </div>
+          </div> -->
           <section class="feedback">
             <h1 class="title">Отзывы</h1>
             <ul class="feedback__list">
@@ -80,14 +127,9 @@
                 <div class="feedback__description">
                   <div class="feedback__date">12.10.2016</div>
                   <h3 class="feedback__title">Ирина Паламарчук</h3>
-                  <p class="feedback__description-text">Летящий в ночном небе самолет — зрелище
-                    загадочное
-                    и
-                    романтическое.
-                    Крылатая машина величественно плывет в вышине, мерцая разноцветными огнями, и
-                    почему-то кажется,
-                    что она наполнена удивительными людьми, спешащими далеко-далеко по очень важным
-                    делам.
+                  <p class="feedback__description-text">Классный полет, трясло первые полчаса так, что я боялась отстегнуть ремни. 
+                    Слава Богу, ничего не случилось, но мне даже валерьянка не помогла, так страшно было. 
+                    Рекомендую, но лучше доплатить и лететь с комфортом.
                   </p>
                 </div>
               </li>
@@ -98,14 +140,9 @@
                 <div class="feedback__description">
                   <div class="feedback__date">12.10.2016</div>
                   <h3 class="feedback__title">Александр Бельков</h3>
-                  <p class="feedback__description-text">Летящий в ночном небе самолет — зрелище
-                    загадочное
-                    и
-                    романтическое.
-                    Крылатая машина величественно плывет в вышине, мерцая разноцветными огнями, и
-                    почему-то кажется,
-                    что она наполнена удивительными людьми, спешащими далеко-далеко по очень важным
-                    делам.
+                  <p class="feedback__description-text">Все понравилось, вежливые стюардессы, вовремя убирают, напитки предлагали 
+                    2 раза, а еду – 1 раз. Единственное, что не понравилось, как то мало места для ног, 
+                    но с этим у меня часто проблема, рост 2,1м.
                   </p>
                 </div>
               </li>
@@ -116,14 +153,9 @@
                 <div class="feedback__description">
                   <div class="feedback__date">12.10.2016</div>
                   <h3 class="feedback__title">Игорь Николаенко</h3>
-                  <p class="feedback__description-text">Летящий в ночном небе самолет — зрелище
-                    загадочное
-                    и
-                    романтическое.
-                    Крылатая машина величественно плывет в вышине, мерцая разноцветными огнями, и
-                    почему-то кажется,
-                    что она наполнена удивительными людьми, спешащими далеко-далеко по очень важным
-                    делам.
+                  <p class="feedback__description-text">Кормили супер вообще! Сказали, что это из-за того, что полет менее 2,5 часов. 
+                    Но прибавьте к этому время регистрации в аэропорту. Летел с женой и мы очень проголодались. 
+                    Просто имейте это ввиду, берите с собой хотя бы бутерброды, чипсы какие-то или печенье.
                   </p>
                 </div>
               </li>
@@ -134,14 +166,9 @@
                 <div class="feedback__description">
                   <div class="feedback__date">12.10.2016</div>
                   <h3 class="feedback__title">Анастасия Порядная</h3>
-                  <p class="feedback__description-text">Летящий в ночном небе самолет — зрелище
-                    загадочное
-                    и
-                    романтическое.
-                    Крылатая машина величественно плывет в вышине, мерцая разноцветными огнями, и
-                    почему-то кажется,
-                    что она наполнена удивительными людьми, спешащими далеко-далеко по очень важным
-                    делам.
+                  <p class="feedback__description-text">За такую цену просто все отлично! Кто недоволен, платите в 2 раза больше 
+                    за аналогичные рейсы. Мне понравилось, что на борту было чисто, я аллергик и всегда чутко реагирую 
+                    на пыль. Спасибо за полет! Рекомендую!
                   </p>
                 </div>
               </li>
@@ -181,17 +208,7 @@
 
         </main>
       </div>
-      <div class="promo">
-        <div class="container promo__container">
-          <p class="promo__description">
-            Вопросы по бронированию билетов в нашей авиакомпании принимаются.
-            Для этого можно оставить
-            <a class="promo__link" href="#">заявку на сайте</a>
-            или же позвонить по номеру круглосуточной поддержки
-            <a href="tel:+788000039210" class="promo__phone">8 (800) 00-392-10.</a>
-          </p>
-        </div>
-      </div>
+      
       <section class="form">
         <form class="form__feedback" action="" method="post" name="form__feedback">
           <div class="container form__container">
@@ -213,24 +230,28 @@
                   placeholder="Мне понравилось"></textarea>
               </label>
             </div>
-
-            <div class="form__text-title">Отображать фото в отзыве?</div>
-            <div class="form__radio">
-              <label class="form__radio-btn" tabindex="0">
-                <input class="form__answer" type="radio" name="photo" value="yes" checked>
-                <div class="form__radio-custom"></div>
-                <div class="form__radio-text">Да</div>
-              </label>
-              <label class="form__radio-btn" tabindex="0">
-                <input class="form__answer" type="radio" name="photo" value="no" tabindex="0">
-                <div class="form__radio-custom"></div>
-                <div class="form__radio-text">Нет</div>
-              </label>
-              <div class="form__btn">
-                <button class="form__submit" type="submit" value="Отправить">Отправить</button>
+            <div class="form__row">
+              <div class="form__radio-block">
+                <div class="form__text-title">Отображать фото в отзыве?</div>
+                <div class="form__radio">
+                  <label class="form__radio-btn" tabindex="0">
+                    <input class="form__answer" type="radio" name="photo" value="yes" checked>
+                    <div class="form__radio-custom"></div>
+                    <div class="form__radio-text">Да</div>
+                  </label>
+                  <label class="form__radio-btn" tabindex="0">
+                    <input class="form__answer" type="radio" name="photo" value="no" tabindex="0">
+                    <div class="form__radio-custom"></div>
+                    <div class="form__radio-text">Нет</div>
+                  </label>
+                </div>
               </div>
-            </div>
-
+              <div class="form__btn">
+                <button class="form__submit" type="submit" value="Отправить">Отправить</button> 
+              </div>
+            
+            
+          </div>
           </div>
         </form>
       </section>
@@ -245,41 +266,7 @@
         <a class="logo logo--footer">
           <img src="./images/logo_header.png" alt="logo" class="logo__img">
         </a>
-        <div class="socials">
-          <h3 class="socials__title">Наши социальные сети</h3>
-          <ul class="socials__list">
-            <li class="socials__item">
-              <a href="" class="socials__link">
-                <span class="socials__icon socials__icon--vk">
-                </span>
-              </a>
-            </li>
-            <li class="socials__item">
-              <a href="" class="socials__link">
-                <span class="socials__icon socials__icon--fb">
-                </span>
-              </a>
-            </li>
-            <li class="socials__item">
-              <a href="" class="socials__link">
-                <span class="socials__icon socials__icon--google">
-                </span>
-              </a>
-            </li>
-            <li class="socials__item">
-              <a href="" class="socials__link">
-                <span class="socials__icon socials__icon--twit">
-                </span>
-              </a>
-            </li>
-            <li class="socials__item">
-              <a href="" class="socials__link">
-                <span class="socials__icon socials__icon--email">
-                </span>
-              </a>
-            </li>
-          </ul>
-        </div>
+        
       </div>
     </footer>
   </div>

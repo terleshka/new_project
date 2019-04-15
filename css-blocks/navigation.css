@@ -1,7 +1,7 @@
-.sidebar {
-  width: 15%;
-  margin-top: 45px;
-  
+
+.nav{
+ 
+  display: inline-flex;
 }
 .nav__icon,
 .nav__title {
@@ -11,7 +11,8 @@
 
 .nav__title {
   margin-left: 15px;
-  margin-bottom: 30px;
+  margin-right: 93px;
+  
   letter-spacing: 2.4px;
   font-size: 12px;
   font-weight: bold;
@@ -33,13 +34,13 @@
 }
 
 .nav__icon {
-  width: 23px;
+  width: 22px;
   height: 18px;
   background: center center no-repeat;
   transition: 0.7s;
 }
 
-.nav__icon--main {
+ .nav__icon--main {
   background-image: url(../images/icons-sidebar/main_icon.png);
 }
 
@@ -78,4 +79,4 @@
 }
 .nav__item--active .nav__title {
   color: black;
-}
+} 
