@@ -2,7 +2,6 @@
  
   padding-top: 40px;
   padding-bottom: 20px;
-  border-bottom: 1px solid #f9f9fb;
   vertical-align: top;
   margin-right: 25px;
 
@@ -14,9 +13,7 @@
 .news__list{
   display: inline-flex;
 }
-.news__item:last-child {
-  border-bottom: none;
-}
+
 
 .news__pic {
   border-radius: 50%;

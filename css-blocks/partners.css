@@ -23,43 +23,16 @@ justify-content: space-evenly;
 min-height: 660px;
 
 }
-.partners__item{
-  /* margin-bottom: 60px; */
-  
-}
+
 
 .partners__logo{
   filter: grayscale(100%);
   opacity: 0.7;
+  transition: 0.7s;
 }
 
-.partners__logo--bmp:hover{
+.partners__logo:hover{
   filter: none;
   opacity: 1;
-  transition: 0.7s;
-}
-.partners__logo--tetra:hover{
-  filter: none;
-  opacity: 1;
-  transition: 0.7s;
-}
-.partners__logo--sib-avia:hover{
-  filter: none;
-  opacity: 1;
-  transition: 0.7s;
-}
-.partners__logo--one-air:hover{
-  filter: none;
-  opacity: 1;
-  transition: 0.7s;
-}
-.partners__logo--bing-air:hover{
-  filter: none;
-  opacity: 1;
-  transition: 0.7s;
-}
-.partners__logo--ural:hover{
-  filter: none;
-  opacity: 1;
-  transition: 0.7s;
+  
 }

@@ -33,6 +33,7 @@
   background-image: url(../images/css_sprites.png);
   background-position: -10px -120px;
   background-repeat: no-repeat;
+  transition: 0.3s;
  
   
 }
@@ -45,6 +46,7 @@
  background-image: url(../images/css_sprites.png);
  background-position: -133px -39px;
  background-repeat: no-repeat;
+ transition: 0.3s;
  
 }
 
@@ -56,6 +58,7 @@
  background-image: url(../images/css_sprites.png);
  background-position: -45px -86px;
  background-repeat: no-repeat;
+ transition: 0.3s;
 }
 
 .socials__icon--twit:after  {
@@ -66,6 +69,7 @@
  background-image: url(../images/css_sprites.png);
  background-position: -133px -10px;
  background-repeat: no-repeat;
+ transition: 0.3s;
 }
 
 .socials__icon--email:after  {
@@ -76,31 +80,32 @@
  background-image: url(../images/css_sprites.png);
  background-position: -80px -86px;
  background-repeat: no-repeat;
+ transition: 0.3s;
 }
 
 
 
 .socials__icon--vk:hover::after {
   opacity: 0.6;
-  transition: 0.3s;
+
 }
 
 .socials__icon--fb:hover:after  {
   opacity: 0.6;
-  transition:0.3s;
+
 }
 
 .socials__icon--google:hover:after  {
   opacity: 0.6;
-  transition: 0.3s;
+
 }
 
 .socials__icon--twit:hover:after  {
   opacity: 0.6;
-  transition: 0.3s;
+ 
 }
 
 .socials__icon--email:hover:after  {
   opacity: 0.6;
-  transition: 0.3s;
+
 }

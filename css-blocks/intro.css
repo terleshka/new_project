@@ -1,9 +1,5 @@
 .wrapper--intro {
   height: 100vh;
-}
-
-.intro__img {
-  height: 100%;
   background-image: url(../images/intro/intro.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -18,9 +14,7 @@
   margin-bottom: 45px;
 
 }
-.intro__animation{
 
-}
 
 .intro__link {
   text-decoration: none;
@@ -53,8 +47,9 @@
   height: 15px;
   width: 15px;
   margin-left: 10px;
-  background-image: url(../images/intro/main_icon.png);
+  background-image: url(../images/css_sprites.png);
   background-repeat: no-repeat;
+  background-position: -45px -86px;
 
 }
 
@@ -65,6 +60,7 @@
 }
 
 .intro__button:hover::after {
-  background-image: url(../images/intro/main_icon_hover_white.png);
+  background-image: url(../images/css_sprites.png);
   background-repeat: no-repeat;
+  background-position: -10px -86px;
 }

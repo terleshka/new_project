@@ -37,11 +37,16 @@
 .contacts__work-schedule-block::before{
   content: "";
   display: block;
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid white;
   height: 15px;
-  left: 0;
+  left: 142px;
   right: 0;
-  top: -15px;
-  position: absolute;
+  top: -22px; 
+  position: absolute; 
 }
 .contacts__work-schedule:hover .contacts__btn{
   color: #fff;

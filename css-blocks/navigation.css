@@ -1,5 +1,5 @@
 
-.nav{
+.nav__list{
  
   display: inline-flex;
 }
@@ -27,6 +27,9 @@
   justify-content: center;
   transition: 0.7s;
 }
+.nav__link:hover .nav__title {
+  color: black;
+}
 
 .nav__item {
   list-style-type: none;
@@ -34,48 +37,56 @@
 }
 
 .nav__icon {
-  width: 22px;
+  width: 23px;
   height: 18px;
   background: center center no-repeat;
-  transition: 0.7s;
+  /* transition: 0.7s; */
 }
 
  .nav__icon--main {
-  background-image: url(../images/icons-sidebar/main_icon.png);
+  background-image: url(../images/css_sprites.png);
+  background-position: -96px -10px;
 }
 
 .nav__icon--feed {
-  background-image: url(../images/icons-sidebar/feed_icon.png);
+  background-image: url(../images/css_sprites.png);
+  background-position: -10px -48px;
 }
 
 .nav__icon--team {
-  background-image: url(../images/icons-sidebar/team_icon.png);
+  background-image: url(../images/css_sprites.png);
+  background-position: -10px -10px;
 }
 
+
 .nav__link:hover .nav__icon--main {
-  background-image: url(../images/icons-sidebar/main_icon_hover.png);
+  background-image: url(../images/css_sprites.png);
+  background-position: -96px -48px;
 }
 
 .nav__link:hover .nav__icon--feed {
-  background-image: url(../images/icons-sidebar/feed_icon_hover.png);
+  background-image: url(../images/css_sprites.png);
+  background-position: -50px -48px;
 }
 
 .nav__link:hover .nav__icon--team {
-  background-image: url(../images/icons-sidebar/team_icon_hover.png);
+  background-image: url(../images/css_sprites.png);
+  background-position: -53px -10px;
 }
 
-.nav__link:hover .nav__title {
-  color: black;
-}
+
 
 .nav__item--active  .nav__icon--main {
-  background-image: url(../images/icons-sidebar/main_icon_hover.png);
+  background-image: url(../images/css_sprites.png);
+  background-position: -96px -48px;
 }
 .nav__item--active  .nav__icon--feed {
-  background-image: url(../images/icons-sidebar/feed_icon_hover.png);
+  background-image: url(../images/css_sprites.png);
+  background-position: -50px -48px;
 }
 .nav__item--active  .nav__icon--team {
-  background-image: url(../images/icons-sidebar/team_icon_hover.png);
+  background-image: url(../images/css_sprites.png);
+  background-position: -53px -10px;
 }
 .nav__item--active .nav__title {
   color: black;
