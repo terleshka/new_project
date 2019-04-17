@@ -31,7 +31,7 @@
   width: 13px;
   height: 9px;
   background-image: url(../images/css_sprites.png);
-  background-position: -10px -120px;
+  background-position: -133px -68px;
   background-repeat: no-repeat;
   transition: 0.3s;
  
@@ -44,7 +44,7 @@
  width: 8px;
  height: 15px;
  background-image: url(../images/css_sprites.png);
- background-position: -133px -39px;
+ background-position: -10px -120px;
  background-repeat: no-repeat;
  transition: 0.3s;
  
@@ -56,7 +56,7 @@
  width: 17px;
  height: 11px;
  background-image: url(../images/css_sprites.png);
- background-position: -45px -86px;
+ background-position: -80px -86px;
  background-repeat: no-repeat;
  transition: 0.3s;
 }
@@ -67,7 +67,7 @@
  width: 13px;
  height: 11px;
  background-image: url(../images/css_sprites.png);
- background-position: -133px -10px;
+ background-position: -133px -39px;
  background-repeat: no-repeat;
  transition: 0.3s;
 }
@@ -78,7 +78,7 @@
  width: 14px;
  height: 11px;
  background-image: url(../images/css_sprites.png);
- background-position: -80px -86px;
+ background-position: -133px -10px;
  background-repeat: no-repeat;
  transition: 0.3s;
 }
